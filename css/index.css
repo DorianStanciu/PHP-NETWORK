@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: black;
+    padding-left: 5%;
+}
+
+.rightmenu{
+    display: flex;
+    margin-right: 3%;
+}
+
+.rightmenu input{
+    height: 36px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.rightmenu button{
+    height: 36px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.rightmenu button:focus{
+    outline: none;
+}
+
+.rightmenu a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.indexcontent{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 40px;
+    font-weight: bold;
+    height: 90vh;
+    width: 100%;
+}
+
+.wrapper-main{
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper-main h1{
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 40px;
+}
+
+.wrapper-main input{
+    height: 36px;
+    width: 250px;
+    margin: 10px;
+}
+
+.wrapper-main button{
+    height: 40px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.wrapper-main button:focus{
+    outline: none;
+}
+
+.signup-error{
+    color: black;
+}
+
+.signup-success{
+    color: green;
+}
